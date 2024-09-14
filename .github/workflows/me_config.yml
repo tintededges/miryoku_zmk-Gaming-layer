@@ -2,8 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: '0 Build me inputs'
-on:
-  workflow_dispatch:
+on: workflow_dispatch:
     inputs:
       mapping:
         description: 'mapping'
@@ -53,15 +52,14 @@ jobs:
     secrets: inherit
     needs: process-inputs
     with:
-      board: 'nice_nano'
-      shield: 'corne_left,corne_right'
-      alphas: 'Workman'
-      nav: 'default'
-      layers: 'default'
+      board: '["nice_nano"]'
+      shield: '["corne_left","corne_right"]'
+      alphas: '["Workman"]'
+      nav: '["default"]'
+      layers: '["default"]'
       mapping: ${{ needs.process-inputs.outputs.mapping }}
       custom_config: ${{ needs.process-inputs.outputs.custom_config }}
       kconfig: ${{ needs.process-inputs.outputs.kconfig }}
       branches: ${{ needs.process-inputs.outputs.branches }}
       modules: ${{ needs.process-inputs.outputs.modules }}
-
 
