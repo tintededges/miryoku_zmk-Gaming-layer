@@ -2,7 +2,8 @@
 # https://github.com/manna-harbour/miryoku
 
 name: '0 Build me inputs'
-on: workflow_dispatch:
+on: 
+  workflow_dispatch:
     inputs:
       mapping:
         description: 'mapping'
