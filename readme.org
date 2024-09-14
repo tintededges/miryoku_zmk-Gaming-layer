@@ -14,15 +14,15 @@ See the [[docs/quickstart][Miryoku ZMK Quickstart Guide]] to have a personalised
 
 ** Fork changes
 
-This repo adds a layer, named "GAME", which is activated with the upper right button of the functions ("FUN") layer. 
+This repo adds a layer, named "GAME", which is activated with the mostleft middle button of the mouse layer. 
 The button toggles the layer until the same button is hit again.
 
 The layout is as follows:
 
-- 1, 2, 3, 4, exit_gaming_layer
-- shift, a, w, d, f
-- ctrl, q, s, e, tab
-- esc, ctrl, space
+- 1, 2, 3, 4, 5
+- lshift, a, w, d, f
+- lalt, q, s, e, tab
+- esc, lctrl, space
 
 To make your own changes based off of this, you can check out https://github.com/tintededges/miryoku_babel-Gaming-layer
 
