@@ -388,13 +388,13 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 
 #define MIRYOKU_ALTERNATIVES_GAME_FLIP \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp N5,            &kp N4,            &kp N3,            &kp N2,            &kp N1,            \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &tog U_GAME,       &kp N4,            &kp N3,            &kp N2,            &kp N1,            \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp F,             &kp D,             &kp W,             &kp A,             &kp LSHFT,         \
 U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_GAME,      U_NA,              &kp TAB,           &kp e,             &kp S,             &kp Q,             &kp LALT,          \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPACE,         &kp LCTRL,         &kp ESC,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_GAME \
-&kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp N1,            &kp N2,            &kp N3,            &kp N4,            &tog U_GAME,       U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp LSHFT,         &kp A,             &kp W,             &kp D,             &kp F,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp LALT,          &kp Q,             &kp S,             &kp E,             &kp TAB,           U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp ESC,           &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
