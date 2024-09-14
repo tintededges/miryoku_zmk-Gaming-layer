@@ -389,6 +389,6 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 #define MIRYOKU_ALTERNATIVES_GAME \
 &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp TAB,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp SHIFT,         &kp S,             &kp W,             &kp D,             U_BASE,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp SHIF,          &kp S,             &kp W,             &kp D,             U_BASE,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp CTRL,          &kp Q,             &kp S,             &kp F,             &kp E,             U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp ESC,           &kp CTRL,          &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
