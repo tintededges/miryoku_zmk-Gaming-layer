@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Inputs'
+name: '0 Build me inputs'
 on:
   workflow_dispatch:
     inputs:
