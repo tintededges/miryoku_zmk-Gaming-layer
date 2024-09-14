@@ -374,7 +374,7 @@ U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_FUN,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPACE,         &kp K_APP,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
-&kp F12,           &kp F7,            &kp F8,            &kp F9,            U_TOG(U_GAME),     U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp F12,           &kp F7,            &kp F8,            &kp F9,            U_GAME,            U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
@@ -389,6 +389,6 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 #define MIRYOKU_ALTERNATIVES_GAME \
 &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp TAB,           U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp SHIFT,         &kp S,             &kp W,             &kp D,             &kp Q,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp N7,            &kp N8,            &kp S,             &kp F,             U_TOG(U_BASE),     U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp CTRL,          U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+&kp SHIFT,         &kp S,             &kp W,             &kp D,             U_BASE,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp CTRL,          &kp Q,             &kp S,             &kp F,             &kp E,             U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp ESC,           &kp CTRL,          &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
