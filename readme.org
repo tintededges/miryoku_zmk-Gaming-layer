@@ -11,6 +11,22 @@ This document describes Miryoku ZMK only.  For Miryoku documentation, implementa
 
 See the [[docs/quickstart][Miryoku ZMK Quickstart Guide]] to have a personalised build running on your keyboard in a few minutes without installing any software or editing any files.
 
+
+** Fork changes
+
+This repo adds a layer, named "GAME", which is activated with the upper right button of the functions ("FUN") layer. 
+The button toggles the layer until the same button is hit again.
+
+The layout is as follows:
+
+- 1, 2, 3, 4, exit_gaming_layer
+- shift, a, w, d, f
+- ctrl, q, s, e, tab
+- esc, ctrl, space
+
+
+
+
 ** Overview
 
 [[#building][Building]] can be performed [[#local-builds][locally]], or via GitHub Actions [[#workflow-builds][workflows]] without use of a local build environment.  Many keyboards are [[#supported-keyboards][supported]], and building out-of-tree keyboards is automatically supported by the workflows.
