@@ -24,6 +24,13 @@ The layout is as follows:
 - ctrl, q, s, e, tab
 - esc, ctrl, space
 
+To make your own changes based off of this, you can check out https://github.com/tintededges/miryoku_babel-Gaming-layer
+
+Fork it, edit readme.org, and use the "build" action in the "actions" tab. Once it's done, you can refresh and download the zip file. 
+After that, unzip it and find the folder for you, e.g. ZMK, into the "/miryoku/miryoku_babel/" directory in your main miryoku repo.
+
+Currently only QMK and ZMK are supported, because I couldn't find the command to toggle a layer for other formats. 
+You can fix this by searching the babel "readme.org" for "&tog U_GAME" to find where these translations are written, and figure out how to do that for your format. 
 
 
 
