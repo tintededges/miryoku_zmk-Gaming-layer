@@ -14,12 +14,12 @@ See the [[docs/quickstart][Miryoku ZMK Quickstart Guide]] to have a personalised
 
 ** Fork changes
 
-This repo adds a layer, named "GAME", which is activated with the mostleft middle button of the mouse layer. 
-The button toggles the layer until the same button is hit again.
+This repo adds a togglable "Game" layer, which doesn't have modkeys or other shortcuts, and is activated with the previously unused leftmost centre button of the mouse layer. 
+The button toggles the layer until the exit_game_button as shown below is pressed, the rightmost top button.
 
 The layout is as follows:
 
-- 1, 2, 3, 4, 5
+- 1, 2, 3, 4, exit_game_layer
 - lshift, a, w, d, f
 - lalt, q, s, e, tab
 - esc, lctrl, space
