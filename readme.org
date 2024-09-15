@@ -24,6 +24,8 @@ The layout is as follows:
 - lalt, q, s, e, tab
 - esc, lctrl, space
 
+This branch additionally swaps the navigation and mouse layer buttons in the thumb cluster.
+
 To make your own changes based off of this, you can check out https://github.com/tintededges/miryoku_babel-Gaming-layer
 
 Fork it, edit readme.org, and use the "build" action in the "actions" tab. Once it's done, you can refresh and download the zip file. 
