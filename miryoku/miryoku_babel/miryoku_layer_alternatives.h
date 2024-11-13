@@ -388,13 +388,13 @@ U_NP,              U_NP,              U_BTN3,            U_BTN2,            U_BT
 
 
 #define MIRYOKU_ALTERNATIVES_GAME_FLIP \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LSHFT,         &kp A,             &kp W,             &kp D,             &kp N1,            \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LALT,          &kp Q,             &kp S,             &kp E,             &kp N2,            \
-U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_GAME,      U_NA,              &kp TAB,           &tog U_GAME,       &kp F,             &kp R,             &kp N3,            \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp LALT,          &kp Q,             &kp F,             &kp E,             &kp N1,            \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LSHFT,         &kp A,             &kp W,             &kp D,             &kp N2,            \
+U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_GAME,      U_NA,              &kp TAB,           &tog U_GAME,       &kp S,             &kp R,             &kp N3,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP,              &kp ESC,           &kp LCTRL,         &kp SPACE
 
 #define MIRYOKU_ALTERNATIVES_GAME \
-&kp LSHFT,         &kp A,             &kp W,             &kp D,             &kp N1,            U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp LALT,          &kp Q,             &kp S,             &kp E,             &kp N2,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TAB,           &tog U_GAME,       &kp F,             &kp R,             &kp N3,            U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+&kp LALT,          &kp Q,             &kp F,             &kp E,             &kp N1,            U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp LSHFT,         &kp A,             &kp W,             &kp D,             &kp N2,            U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TAB,           &tog U_GAME,       &kp S,             &kp R,             &kp N3,            U_NA,              &u_to_U_GAME,      &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp ESC,           &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
